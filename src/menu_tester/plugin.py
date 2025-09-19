@@ -6,6 +6,12 @@ class MenuTesterConfig(PluginConfig):
     description = "Simplest test plugin to show a menu item."
     version = "0.1.0"
     base_url = "menu-tester"
-    top_level_menu = True  # Required for a dedicated sidebar in NetBox 4.4+
+    default_settings = {
+        'top_level_menu': True,
+    }
+
+    def ready(self):
+        super().ready()
+
 
 config = MenuTesterConfig
