@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "menu-tester"
+version = "0.1.0"
+description = "Simplest NetBox plugin with a test menu item"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+  { name="Your Name", email="you@example.com" }
+]
+dependencies = [
+  # NetBox already provides Django, so keep this empty unless you add extras
+]
+
+[project.urls]
+Homepage = "https://github.com/ds2600/menu_tester"
+
