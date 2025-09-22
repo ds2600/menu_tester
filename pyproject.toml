@@ -18,3 +18,9 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/ds2600/menu_tester"
 
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
