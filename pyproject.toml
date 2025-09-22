@@ -23,4 +23,3 @@ Homepage = "https://github.com/ds2600/menu_tester"
 
 [tool.setuptools.packages.find]
 where = ["src"]
-
